@@ -1,14 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
-? Shell Sort
-Si scriva un programma in C che per ogni sequenza numerica acquisita da file (sort.txt) 
-invochi tutti gli algoritmi di ordinamento sopra indicati e stampi a video:
-	? il numero di scambi
-	? il numero di iterazioni del ciclo esterno
-	? per ogni passo del ciclo esterno il numero di iterazioni del ciclo interno
-	? il numero totale di iterazioni.
-*/
 
 void insertionSort(int *vet);
 int len(int *vet);
